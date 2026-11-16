@@ -71,6 +71,12 @@ textarea.f:focus{outline:none;background:#FFF6D9;border-color:var(--blue);}
   .answer-print{display:block;}
 }
 
+details.help{border:1px solid var(--green-line);background:var(--green-pale);border-radius:6px;padding:12px 16px;margin:0 0 12px;}
+details.help summary{cursor:pointer;font-weight:700;font-size:16px;}
+details.help[open] summary{margin-bottom:12px;}
+details.help table{background:#fff;}
+details.help a, footer a{color:var(--blue);font-weight:600;}
+
 .daynav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 24px;}
 .daynav a{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--blue-line);border-radius:8px;padding:14px 16px;background:#F7FAFC;}
 .daynav a:hover{background:var(--blue-pale);border-color:var(--blue);}
@@ -170,6 +176,62 @@ textarea.f:focus{outline:none;background:#FFF6D9;border-color:var(--blue);}
     <tr><td class="es">decir</td><td><input class="f"></td><td class="es">traer</td><td><input class="f"></td></tr>
     <tr><td class="es">ir / ser</td><td><input class="f"></td><td class="es">dar</td><td><input class="f"></td></tr>
   </table>
+</section>
+
+<section class="step">
+  <p class="tag">Ayuda extra &middot; en clase o en casa</p>
+  <h3>¿Necesita más ayuda con el pretérito?</h3>
+  <p class="how">Open what you need. If the stem-changing verbs in Paso 2 felt shaky, start with the first one. You can also do this at home before Wednesday.</p>
+
+  <details class="help">
+    <summary>1. Los verbos con cambio de raíz, paso a paso</summary>
+    <p><strong>Rule 1: -ar and -er verbs do not change.</strong> A verb that changes its stem in the present goes back to normal in the preterite if it ends in <em>-ar</em> or <em>-er</em>.</p>
+    <table>
+      <tr><th style="width:26%">Infinitivo</th><th style="width:37%">Presente (cambia)</th><th>Pretérito (no cambia)</th></tr>
+      <tr><td class="es">pensar</td><td class="es">p<strong>ie</strong>nso, p<strong>ie</strong>nsan</td><td class="es">pensé, pensó, pensaron</td></tr>
+      <tr><td class="es">volver</td><td class="es">v<strong>ue</strong>lvo, v<strong>ue</strong>lven</td><td class="es">volví, volvió, volvieron</td></tr>
+      <tr><td class="es">perder</td><td class="es">p<strong>ie</strong>rdo, p<strong>ie</strong>rden</td><td class="es">perdí, perdió, perdieron</td></tr>
+    </table>
+    <p><strong>Rule 2: only -ir verbs change, and only in two places.</strong> The change is one single vowel (e &rarr; <strong>i</strong>, o &rarr; <strong>u</strong>), and it appears only in the <em>usted / él / ella</em> form and the <em>ustedes / ellos / ellas</em> form. The other four forms are regular.</p>
+    <table>
+      <tr><th style="width:30%">&nbsp;</th><th style="width:35%">pedir (e &rarr; i)</th><th>dormir (o &rarr; u)</th></tr>
+      <tr><td class="es">yo</td><td class="es">pedí</td><td class="es">dormí</td></tr>
+      <tr><td class="es">tú</td><td class="es">pediste</td><td class="es">dormiste</td></tr>
+      <tr><td class="es">usted / él / ella</td><td class="es"><strong>pidió</strong></td><td class="es"><strong>durmió</strong></td></tr>
+      <tr><td class="es">nosotros/as</td><td class="es">pedimos</td><td class="es">dormimos</td></tr>
+      <tr><td class="es">vosotros/as</td><td class="es">pedisteis</td><td class="es">dormisteis</td></tr>
+      <tr><td class="es">ustedes / ellos / ellas</td><td class="es"><strong>pidieron</strong></td><td class="es"><strong>durmieron</strong></td></tr>
+    </table>
+    <p class="es" style="margin:0 0 6px"><strong>e &rarr; i:</strong> pedir, servir, repetir, seguir, conseguir, preferir, sentir(se), divertirse, vestirse, mentir, reír</p>
+    <p class="es"><strong>o &rarr; u:</strong> dormir, morir</p>
+    <div class="box-blue" style="margin-bottom:14px">
+      <p style="margin:0"><strong>Why this matters today:</strong> the past subjunctive is built on the <em>ellos</em> form, so this one-vowel change travels into <em>all six</em> forms: <span class="es">p<strong>i</strong>dieron &rarr; p<strong>i</strong>diera, p<strong>i</strong>diéramos &middot; d<strong>u</strong>rmieron &rarr; d<strong>u</strong>rmiera, d<strong>u</strong>rmiéramos</span>.</p>
+    </div>
+    <p><strong>Práctica.</strong> Careful: two of these verbs are a trap. They do not change.</p>
+    <table>
+      <tr><th style="width:30%">Infinitivo</th><th style="width:35%">usted / él / ella</th><th>ustedes / ellos / ellas</th></tr>
+    <tr><td class="es">servir</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">repetir</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">pensar</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">preferir</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">sentir</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">volver</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">divertirse</td><td><input class="f"></td><td><input class="f"></td></tr>
+    <tr><td class="es">morir</td><td><input class="f"></td><td><input class="f"></td></tr>
+    </table>
+    <details class="help" style="background:#fff">
+      <summary style="font-size:15px">Ver las respuestas</summary>
+      <p class="es" style="margin:0">sirvió, sirvieron &middot; repitió, repitieron &middot; <strong>pensó, pensaron</strong> (-ar: no cambia) &middot; prefirió, prefirieron &middot; sintió, sintieron &middot; <strong>volvió, volvieron</strong> (-er: no cambia) &middot; se divirtió, se divirtieron &middot; murió, murieron</p>
+    </details>
+  </details>
+
+  <details class="help">
+    <summary>2. Lea más en nuestro libro abierto (gratis)</summary>
+    <ul style="margin:0">
+      <li><a href="https://louis.pressbooks.pub/liliana-naranjo/chapter/preterito/" target="_blank" rel="noopener">El pretérito</a> &mdash; <em>Spanish for a Sustainable World I</em>. Regular endings, spelling changes in the <em>yo</em> form, the irregular stems, and when to use the preterite, with practice activities.</li>
+      <li><a href="https://louis.pressbooks.pub/sustainablespanish/chapter/el-pasado-del-subjuntivo/" target="_blank" rel="noopener">El pasado del subjuntivo</a> &mdash; <em>Spanish for a Sustainable World II</em>. Read &ldquo;Formation of the Imperfect Subjunctive&rdquo; and do Actividad 1 and Actividad 4. The sections on <span class="es"><em>si</em></span> clauses use a tense we have not studied yet; skip them for now.</li>
+    </ul>
+  </details>
 </section>
 
 <section class="step">
@@ -406,6 +468,7 @@ textarea.f:focus{outline:none;background:#FFF6D9;border-color:var(--blue);}
 
 <footer>
   <p style="margin:0 0 6px"><span class="pill">Tarea</span> <strong>For Friday, November 20:</strong> Connect &middot; read pp. 546&ndash;548 (el condicional).</p>
+  <p style="margin:0 0 6px">More practice with the forms: <a href="https://louis.pressbooks.pub/sustainablespanish/chapter/el-pasado-del-subjuntivo/" target="_blank" rel="noopener">El pasado del subjuntivo</a> in our open textbook (Actividad 1 and Actividad 4).</p>
   <p style="margin:0">Keep this page: the past subjunctive comes back after Thanksgiving, in the <span class="es"><em>si</em></span> clauses.</p>
 </footer>
 </div>
